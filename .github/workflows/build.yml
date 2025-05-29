@@ -1,3 +1,14 @@
 # Build.Yml
+name: Do Nothing Workflow
 
-*Placeholder content for build.yml*
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  do-nothing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Do nothing
+        run: echo "Doing nothing."
