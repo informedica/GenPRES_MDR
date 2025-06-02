@@ -2,6 +2,9 @@
 
 ## General Guidelines
 
+Be clear, concise, and specific in your commit messages. Each message should provide enough context for other developers to understand the change without needing to look at the code.
+Commit messages should follow a consistent format to ensure clarity and maintainability across the GenPRES project. This document outlines the conventions and best practices for writing commit messages.
+
 ### Commit Message Format
 Use the conventional commits format for all commit messages:
 
@@ -18,7 +21,7 @@ Use the conventional commits format for all commit messages:
 - **fix**: A bug fix
 - **docs**: Documentation only changes
 - **style**: Changes that do not affect the meaning of the code (white-space, formatting, etc.)
-- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **refact**: A code change that neither fixes a bug nor adds a feature
 - **perf**: A code change that improves performance
 - **test**: Adding missing tests or correcting existing tests
 - **build**: Changes that affect the build system or external dependencies
@@ -253,7 +256,7 @@ Use this template for consistent commit messages:
 # Type can be 
 #    feat     (new feature)
 #    fix      (bug fix)
-#    refactor (refactoring production code)
+#    refact   (refactoring production code)
 #    style    (formatting, missing semi colons, etc; no code change)
 #    docs     (changes to documentation)
 #    test     (adding or refactoring tests; no production code change)
